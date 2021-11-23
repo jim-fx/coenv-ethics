@@ -15,7 +15,8 @@ jobs:
         run: sudo apt-get install -y latex2html
 
       - name: Build HTML
-        run: make html && mv main main/main.pdf 
+        continue-on-error: true
+        run: mkdir main && make html && mv main.pdf main/main.pdf 
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.6
