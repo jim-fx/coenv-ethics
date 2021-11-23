@@ -11,3 +11,4 @@ main.pdf
 public/*
 !public/.nojekyll
 !public/style.css
+!public/fonts

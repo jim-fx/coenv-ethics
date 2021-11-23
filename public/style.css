@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Outfit:wght@600&display=swap');
 
+@font-face {
+  font-family: 'Computer Modern';
+  font-weight: normal;
+  src: url('fonts/cmr10.woff') format('woff');
+}
+@font-face {
+  font-family: 'Computer Modern';
+  font-weight: bold;
+  src: url('fonts/cmbx10.woff') format('woff');
+}
 body {
   margin: 0 auto;
   max-width: 50em;
-  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Computer Modern", serif;
 }
 
 h1 {
