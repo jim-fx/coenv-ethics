@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Outfit:wght@600&display=swap');
 
+@font-face {
+  font-family: 'Computer Modern';
+  font-weight: normal;
+  src: url('fonts/cmr10.woff') format('woff');
+}
+@font-face {
+  font-family: 'Computer Modern';
+  font-weight: bold;
+  src: url('fonts/cmbx10.woff') format('woff');
+}
 body {
   margin: 0 auto;
   max-width: 50em;
-  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Computer Modern", serif;
 }
 
 h1 {
@@ -13,3 +23,14 @@ h1 {
 .CENTER {
   text-align: center;
 }
+
+.XTINY		{ font-size : xx-small }
+.TINY		{ font-size : x-small  }
+.SCRIPTSIZE	{ font-size : smaller  }
+.FOOTNOTESIZE	{ font-size : small    }
+.XLARGE		{ font-size : large; font-weight: bolder;    }
+.XXLARGE		{ font-size : x-large  }
+.HUGE		{ font-size : larger   }
+.XHUGE		{ font-size : xx-large }
+
+
