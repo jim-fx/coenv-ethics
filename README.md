@@ -1,5 +1,8 @@
 # Ethical Evalutation of CoEnv
 
+[Website](https://jim-fx.github.io/coenv-ethics)
+[PDF](https://jim-fx.github.io/coenv-ethics/main.pdf)
+
 ## How to Setup
 
 **Install Dependancies**

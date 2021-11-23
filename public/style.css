@@ -23,3 +23,14 @@ h1 {
 .CENTER {
   text-align: center;
 }
+
+.XTINY		{ font-size : xx-small }
+.TINY		{ font-size : x-small  }
+.SCRIPTSIZE	{ font-size : smaller  }
+.FOOTNOTESIZE	{ font-size : small    }
+.XLARGE		{ font-size : large; font-weight: bolder;    }
+.XXLARGE		{ font-size : x-large  }
+.HUGE		{ font-size : larger   }
+.XHUGE		{ font-size : xx-large }
+
+
