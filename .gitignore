@@ -1,0 +1,10 @@
+# Temporary Files of latex compilation
+*.log
+*.aux
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.gz
+
+main/
