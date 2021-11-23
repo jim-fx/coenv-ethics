@@ -1,7 +1,7 @@
+build: combile clean
+
 combile:
 	latexmk -pdf
-
-build: combile clean
 
 clean:
 	latexmk -c
