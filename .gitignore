@@ -7,5 +7,6 @@
 *.out
 *.gz
 
-main/*
-!main/.nojekyll
+public/*
+!public/.nojekyll
+!public/style.css

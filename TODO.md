@@ -2,7 +2,7 @@
 
 ### 1. Erklärung für Dritte
 
-- [ ] Erklärung Themenfeld, erklärung aktueller Stand der Technik
+- [ ] Erklärung Themenfeld, Erklärung aktueller Stand der Technik
 - [ ] Die beabsichtigte Innovation durch CoEnv
 - [ ] Die dadurch erwartbaren Chancen
 
