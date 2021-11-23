@@ -6,19 +6,20 @@ jobs:
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
+
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
           root_file: main.tex
 
-      - name: Install xmllint
+      - name: Install latex2html
         run: sudo apt-get install -y latex2html
 
       - name: Build HTML
         continue-on-error: true
-        run: mkdir main && make html && mv main.pdf main/main.pdf 
+        run: make html && mv main.pdf main/main.pdf 
 
-      - name: Deploy 🚀
+      - name: Deploy Artifacts to Github Pages
         uses: JamesIves/github-pages-deploy-action@4.1.6
         with:
           branch: gh-pages # The branch the action should deploy to.
