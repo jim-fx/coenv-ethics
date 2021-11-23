@@ -6,6 +6,7 @@
 *.fls
 *.out
 *.gz
+main.pdf
 
 public/*
 !public/.nojekyll
