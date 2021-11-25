@@ -37,7 +37,7 @@ It also contains a Github Action Pipeline compiles and publishes a LaTeX Documen
 - latex2html
 - texlive-lang-german
 
-[How to install dependancies](https://gist.github.com/rain1024/98dd5e2c6c8c28f9ea9)
+[How to install dependancies (Ubuntu)](https://gist.github.com/rain1024/98dd5e2c6c8c28f9ea9d)
 
 
 ## Neovim
