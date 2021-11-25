@@ -8,10 +8,20 @@
 \usepackage{csquotes}
 \MakeOuterQuote{"}
 
+\usepackage{multicol}
+\usepackage{blindtext}
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{M. Richter, ...}
+\lhead{CoEnv - Ethische Bewertung}
+\rfoot{Seite \thepage}
+
 
 \setlength{\parindent}{0em}
 
@@ -30,14 +40,14 @@ Das Ziel dieses Textes ist es, unser Produkt CoEnv unter ethischen Gesichtspunkt
 \newpage
 
 \section{Einleitung}
-
+\begin{multicols}{2}\hbadness=100000
 CoEnv ist ein im Rahmen des Kurses "Functional Objects for Shared Environments" entstandenes Konzept.
 \\[2ex]
 "Shared Environments" sind in unserer Definition Umgebungen oder Orte die Infrastruktur bieten welche Menschen bei der Arbeit unterstützt, meistens Strom, Internet, Küche, Toiletten, Arbeitsplätze und eventuell auch Werkstätten. Dabei gibt es in diesen Umgebungen meistens keine festen Hierarchien.
 \\[2ex]
 Einige Beispiele für Shared Environments wären HackerSpaces, Coworking Spaces und der Open Space des Studienganges Code\&Context an der TH-Köln.
 \\[2ex]
-Die Vorteile von Shared Environments sind vielfältig. Sie ermöglichen ihren Nutzer*innen den direkten Austausch mit anderen Personen aus ihrem professionellen Umfeld. Die gemeinsame Nutzung von Infrastruktur senkt die Ausgaben. Außerdem gibt sie Menschen die zum Beispiel als Freelancer arbeiten eine Möglichkeit zur sozialen Interaktion, die manche in ihrem normalen Arbeitsalltag missen.
+Die Vorteile von Shared Environments sind vielfältig. Sie ermöglichen ihren Nutzer*innen den direkten Austausch mit anderen Personen aus ihrem professionellen Umfeld \cite{Cabral2016}, die manche in ihrem normalen und besonders im Covid-19 Homeoffice, Arbeitsalltag missen \cite{Lengen2021-xe}.
 \\[2ex]
 Aus unserer eigenen Erfahrung führen geteilte Umgebungen aber auch oft zu ambigen Situation in deren die gewünschte oder erlaubte Nutzung von Räumen und Objekten nicht geklärt ist und Unsicherheit entsteht.
 \\[2ex]
@@ -46,6 +56,7 @@ In eher klassischen Büros ist diese erlaubte Nutzung von Objekten und Räumen r
 Unser Konzept setzt an diesem Punkt an, indem wir eine Symbolsprache entworfen haben. Diese Symbole werden für jede Umgebung eigens entwickelt und können von Computern und Menschen gelesen werden. Es ist meiner Meinung nach wichtig die Symbole für jede Umgebung neu zu entwerfen, da jede Umgebung andere Eigenschaften braucht im Räume und Objekte zu beschreiben.
 \\[2ex]
 Eine weitere, noch nicht wirklich ausformulierte Benutzung der Symbole könnte darin liegen das sich Personen auch selber mit ihnen versehen können, um zum Beispiel zu kommunizieren dass sie im Moment nicht angesprochen werden wollen oder auch im Gegenteil, dass sie gerade Lust auf Kommunikation haben. 
+\end{multicols}
 
 % Symbolsprache wird Kontextabhängig entwickelt... 
 % Symbole kommuniziere Eigenschaft/Attribute von Objekten und Räumen
@@ -109,38 +120,54 @@ Auch wenn die meisten Shared Environments flache Hierarchien vorweisen, muss es 
 
 \subsubsection*{Ziele}
 
-\textbf{Zufriedenheit} aller Nutzer*innen des Shared Environments, \textbf{niedrige Kosten} in der Anschaffung und Erhaltung von Equipment und Möbeln.
+\emph{Zufriedenheit} aller Nutzer*innen des Shared Environments, \emph{niedrige Kosten} in der Anschaffung und Erhaltung von Equipment und Möbeln.
 
 \subsubsection*{Mittel}
+
+\emph{Auswahl der Möbel und des Equipments} mit Fokus auf Nutzbarkeit und Preis. 
 
 \subsection{Gäste}
 
 Gäste sind Personen die nicht auf Dauer in Shared Environments verweilen
 
 \subsubsection*{Ziele}
+\emph{Vermeidung unangenehmer Situation} die bei eventuellen Konflikten entstehen könnten. \emph{Leichtes Zurechtfinden} in der unbekannten Umgebung. 
+
 \subsubsection*{Mittel}
+\emph{Fragen der Nutzer*innen} des Shared Environments. \emph{Lesen von Informationsmaterial}.  
 
 \subsection{Nutzer*innen}
 
 Nutzer*innen sind Personen die das Shared Environments regelmäßig aufsuchen.
 
 \subsubsection*{Ziele}
+\emph{Effizientes Zurechtkommen} in dem Shared Environments, minimal kognitive Last bei dem Erledigen alltäglicher Aufgaben. \emph{Konfliktvermeidung} mit anderen Nutzer*innen.
+
 \subsubsection*{Mittel}
+\emph{Kommunizieren} mit den anderen Nutzer*innen, einhalten von vorhandenen expliziten und impliziten Regeln.
 
 \subsection{CoEnv Team}
+Auch wir als CoEnv Team sind Teil des Gesamtzusammenhanges und dürfen uns nicht wegdenken.
+
 \subsubsection*{Ziele}
+\emph{Bereitstellen von CoEnv}. \emph{Bestehen der Kurse} die sich mit CoEnv beschäftigen.
+
 \subsubsection*{Mittel}
+\emph{Arbeiten an CoEnv}.
 
-\section{Folgenanalyse}
+% \section{Folgenanalyse}
 
-\subsection{Positive Folgen die durch CoEnv entstehen}
 
-tbd.
+\section{Positive Folgen die durch CoEnv entstehen}
+Wenn CoEnv so umgesetzt werden kann wie wir es uns vorstellen, könnte dies enorm positive Folgen für die Arbeitsumgebungen die es benutzen haben. Durch den Fokus auf die Bedürfnisse und persönliche Grenzen der Nutzer*innen könnte es zu einer \emph{stärkeren Rücksichtnahme} untereinander führen.
 
 \section{Zusatzarbeit...}
-% \cite{greenwade93}
 
-% \bibliographystyle{alpha}
-% \bibliography{sample}
+Nope.
+
+\newpage
+
+\bibliographystyle{apalike}
+\bibliography{sample}
 
 \end{document} 

@@ -6,6 +6,8 @@
 *.fls
 *.out
 *.gz
+*.toc
+*.bbl
 main.pdf
 
 public/*

@@ -9,8 +9,8 @@
 ### 2. Sachanalyse pro Akteur
 
 - [x] Welche Akteure gibt es
-- [ ] Welche Ziele haben unsere Akteure
-- [ ] Mit welchen Mitteln sollen diese Ziele erreicht werden?
+- [-] Welche Ziele haben unsere Akteure
+- [-] Mit welchen Mitteln sollen diese Ziele erreicht werden?
 
 ### 3. Folgenanalysen
 
@@ -22,8 +22,8 @@ Normativitätsanspruch (So soll es sein)
 
 ### Z. Zusatzarbeit (1/2 - 1 Seiten)
 
-- [ ] Aufarbeitung von Kapitel 80 Ubitquitous Computing in Handbuch Technikethik
-- [ ] 1 Kapitel aus Handbuch Technikethik Kapitel IV.B Ethische Begründungsansätze
+- [-] Aufarbeitung von [Kapitel 80 Ubitquitous Computing in Handbuch Technikethik](https://ebookcentral.proquest.com/lib/koln/reader.action?docID=1344746&ppg=381) (Nur über vpn erreichbar)
+- [-] 1 Kapitel aus Handbuch Technikethik Kapitel IV.B Ethische Begründungsansätze
 
 ## Hilfsfragen zur Sachanalyse
 
