@@ -4,16 +4,22 @@
 
 
 
+%
+\providecommand{\theauthor}{M. Richter und ...}%
+\providecommand{\thetitle}{Ethische Bewertung von CoEnv} 
+\title{Ethische Bewertung von CoEnv}
+\author{M. Richter und ...} 
+\date{\today}
+
 
 \usepackage[german]{babel}
+\usepackage[utf8]{inputenc}
 \usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
-\usepackage{amsmath}
 
 
 \usepackage{csquotes}
 \MakeOuterQuote{"}
-
-
+\usepackage{amsmath}
 \usepackage{multicol}
 \usepackage{blindtext}
 \usepackage{graphicx}
@@ -25,17 +31,15 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{M. Richter, ...}
-\lhead{CoEnv - Ethische Bewertung}
+\makeatletter
+\rhead{M. Richter und ...}
+\makeatother
+\lhead{Ethische Bewertung von CoEnv}
 \rfoot{Seite \thepage }
 
 
 
 \setlength{\parindent}{0em} 
-
-
-\title{Ethische Bewertung von CoEnv}
-\author{Max Richter und ...}
 
 
 
@@ -124,20 +128,20 @@
   \else\expandafter\vss\fi}%
 \providecommand{\selectlanguage}[1]{}%
 \makeatletter \tracingstats = 1 
-\providecommand{\Tau}{\textrm{T}}
+\providecommand{\Beta}{\textrm{B}}
+\providecommand{\Kappa}{\textrm{K}}
 \providecommand{\Chi}{\textrm{X}}
 \providecommand{\Mu}{\textrm{M}}
-\providecommand{\Eta}{\textrm{H}}
-\providecommand{\Zeta}{\textrm{Z}}
-\providecommand{\Omicron}{\textrm{O}}
-\providecommand{\Kappa}{\textrm{K}}
 \providecommand{\Iota}{\textrm{J}}
-\providecommand{\Beta}{\textrm{B}}
-\providecommand{\Rho}{\textrm{R}}
 \providecommand{\Alpha}{\textrm{A}}
-\providecommand{\omicron}{\textrm{o}}
-\providecommand{\Epsilon}{\textrm{E}}
+\providecommand{\Tau}{\textrm{T}}
 \providecommand{\Nu}{\textrm{N}}
+\providecommand{\Eta}{\textrm{H}}
+\providecommand{\Epsilon}{\textrm{E}}
+\providecommand{\Omicron}{\textrm{O}}
+\providecommand{\Rho}{\textrm{R}}
+\providecommand{\Zeta}{\textrm{Z}}
+\providecommand{\omicron}{\textrm{o}}
 
 
 \begin{document}
@@ -165,9 +169,9 @@
 \stepcounter{section}
 \stepcounter{subsection}
 {\newpage\clearpage
-\lthtmlfigureA{subfigure35}%
+\lthtmlfigureA{subfigure41}%
 \begin{subfigure}
-% latex2html id marker 35
+% latex2html id marker 41
 {.4\textwidth}
   \centering
   \includegraphics[width=.7\linewidth]{images/sigil-base.png}
@@ -177,9 +181,9 @@
 \lthtmlcheckvsize\clearpage}
 
 {\newpage\clearpage
-\lthtmlfigureA{subfigure41}%
+\lthtmlfigureA{subfigure47}%
 \begin{subfigure}
-% latex2html id marker 41
+% latex2html id marker 47
 {.4\textwidth}
   \centering
   \includegraphics[width=.7\linewidth]{images/sigil-example.png}
