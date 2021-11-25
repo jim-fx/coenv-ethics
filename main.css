@@ -56,3 +56,4 @@ TABLE		{ border-collapse: collapse; }
 DIV.center		{   }
 DIV.navigation		{   }
 SPAN.arabic		{   }
+SPAN.textbf		{ font-weight: bold  }
