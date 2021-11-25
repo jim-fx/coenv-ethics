@@ -1,13 +1,24 @@
 \documentclass{article}
 
-\usepackage[german]{babel}
-\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
-\usepackage{amsmath}
+% Metadata section
 
-% Use german quotes
+\newcommand{\theauthor}{M. Richter und ...}
+\newcommand{\thetitle}{Ethische Bewertung von CoEnv}
+\title{\thetitle}
+\author{\theauthor} 
+\date{\today}
+
+% Package Section
+
+% - Set document language
+\usepackage[german]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% - Use german quotes
 \usepackage{csquotes}
 \MakeOuterQuote{"}
-
+\usepackage{amsmath}
 \usepackage{multicol}
 \usepackage{blindtext}
 \usepackage{graphicx}
@@ -16,17 +27,17 @@
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 \usepackage{fancyhdr}
 
+% Layout section
+
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{M. Richter, ...}
-\lhead{CoEnv - Ethische Bewertung}
+\makeatletter
+\rhead{\theauthor}
+\makeatother
+\lhead{\thetitle}
 \rfoot{Seite \thepage}
 
-
 \setlength{\parindent}{0em}
-
-\title{Ethische Bewertung von CoEnv}
-\author{Max Richter und ...}
 
 \begin{document}
 \maketitle
