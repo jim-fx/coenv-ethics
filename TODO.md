@@ -20,7 +20,6 @@ Auftretenszeit-/Wahrscheinlichkeitsgebunden)
 - [ ] Stellt einen positiven Wertebezug her und erhebt einen positiven
 Normativitätsanspruch (So soll es sein)
 
-
 ### Z. Zusatzarbeit (1/2 - 1 Seiten)
 
 - [ ] Aufarbeitung von Kapitel 80 Ubitquitous Computing in Handbuch Technikethik
