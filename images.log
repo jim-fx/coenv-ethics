@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.26)  26 NOV 2021 09:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.26)  26 NOV 2021 09:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -396,6 +396,13 @@ s
 \f@nch@O@erf=\skip61
 \f@nch@O@olf=\skip62
 \f@nch@O@orf=\skip63
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count308
+\float@exts=\toks24
+\float@box=\box93
+\@float@everytoks=\toks25
+\@floatcapt=\box94
 ) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -419,7 +426,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 
+l.51 
      
 The package inputenc has already been loaded with options:
   [utf8]
@@ -430,18 +437,18 @@ Adding the global options:
 to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
-\sizebox=\box93
+\sizebox=\box95
 \lthtmlwrite=\write3
 (/usr/share/texmf/tex/latex/preview/preview.sty
 Package: preview 2017/04/24 11.91 (AUCTeX/preview-latex)
 (/usr/share/texmf/tex/latex/preview/prtightpage.def
 \PreviewBorder=\dimen175
 )
-\pr@snippet=\count308
-\pr@box=\box94
-\pr@output=\toks24
+\pr@snippet=\count309
+\pr@box=\box96
+\pr@output=\toks26
 )
-\lthtmlPageBox=\box95
+\lthtmlPageBox=\box97
 \lthtmlCropMarkHeight=\dimen176
 \lthtmlCropMarkDepth=\dimen177
 Package csquotes Info: Checking for multilingual support...
@@ -449,13 +456,13 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 
 Package csquotes Warning: No style for language 'nil'.
-(csquotes)                Using fallback style on input line 147.
+(csquotes)                Using fallback style on input line 148.
 
 Package csquotes Info: Redefining alias 'default' -> 'fallback'.
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count309
-\l__pdf_internal_box=\box96
+\l__kernel_color_stack_int=\count310
+\l__pdf_internal_box=\box98
 ) (./images.aux
 
 Package babel Warning: Unknown language `german'. Very likely you
@@ -463,31 +470,25 @@ Package babel Warning: Unknown language `german'. Very likely you
 (babel)                wrong results in this run, which should vanish
 (babel)                in the next one. Reported on input line 22.
 
-
-LaTeX Warning: Label `fig:sub1' multiply defined.
-
-
-LaTeX Warning: Label `fig:sub1' multiply defined.
-
 )
 \openout1 = `images.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -522,20 +523,20 @@ LaTeX Font Info:    ... okay on input line 147.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package csquotes Info: Making character " active on input line 147.
+Package csquotes Info: Making character " active on input line 148.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count310
+\scratchcounter=\count311
 \scratchdimen=\dimen178
-\scratchbox=\box97
-\nofMPsegments=\count311
-\nofMParguments=\count312
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count313
+\scratchbox=\box99
+\nofMPsegments=\count312
+\nofMParguments=\count313
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count314
 \MPscratchDim=\dimen179
-\MPnumerator=\count314
-\makeMPintoPDFobject=\count315
-\everyMPtoPDFconversion=\toks26
+\MPnumerator=\count315
+\makeMPintoPDFobject=\count316
+\everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 (/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
@@ -552,10 +553,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box98
-Package hyperref Info: Link coloring ON on input line 147.
+\AtBeginShipoutBox=\box100
+Package hyperref Info: Link coloring ON on input line 148.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -563,11 +565,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count316
+\c@section@level=\count317
 )
-LaTeX Info: Redefining \ref on input line 147.
-LaTeX Info: Redefining \pageref on input line 147.
-LaTeX Info: Redefining \nameref on input line 147.
+LaTeX Info: Redefining \ref on input line 148.
+LaTeX Info: Redefining \pageref on input line 148.
+LaTeX Info: Redefining \nameref on input line 148.
 \@outlinefile=\write4
 \openout4 = `images.out'.
 
@@ -603,7 +605,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.180 \lthtmlfigureZ
+l.181 \lthtmlfigureZ
                     
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -614,7 +616,7 @@ If that doesn't work, type  X <return>  to quit.
 <images/sigil-base.png, id=4, 401.5pt x 401.5pt>
 File: images/sigil-base.png Graphic file (type png)
 <use images/sigil-base.png>
-Package pdftex.def Info: images/sigil-base.png  used on input line 180.
+Package pdftex.def Info: images/sigil-base.png  used on input line 181.
 (pdftex.def)             Requested size: 97.71808pt x 97.7159pt.
 
 ! Package caption Error: \caption outside float.
@@ -623,7 +625,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.180 \lthtmlfigureZ
+l.181 \lthtmlfigureZ
                     
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -632,9 +634,9 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-:subfigure41:lthtmlCropMarkHeight:=57.35796pt
+:subfigure42:lthtmlCropMarkHeight:=57.35796pt
 
-:subfigure41:lthtmlCropMarkDepth:=46.35794pt:1ex:=4.30554pt
+:subfigure42:lthtmlCropMarkDepth:=46.35794pt:1ex:=4.30554pt
 Preview: Tightpage -32891 -32891 32891 32891
 [1 </home/runner/work/coenv-ethics/coenv-ethics/images/sigil-base.png>]
 
@@ -644,7 +646,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.192 \lthtmlfigureZ
+l.193 \lthtmlfigureZ
                     
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -655,7 +657,7 @@ If that doesn't work, type  X <return>  to quit.
 <images/sigil-example.png, id=10, 401.5pt x 411.5375pt>
 File: images/sigil-example.png Graphic file (type png)
 <use images/sigil-example.png>
-Package pdftex.def Info: images/sigil-example.png  used on input line 192.
+Package pdftex.def Info: images/sigil-example.png  used on input line 193.
 (pdftex.def)             Requested size: 97.71808pt x 100.1588pt.
 
 ! Package caption Error: \caption outside float.
@@ -664,7 +666,7 @@ See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.192 \lthtmlfigureZ
+l.193 \lthtmlfigureZ
                     
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -673,15 +675,15 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-:subfigure47:lthtmlCropMarkHeight:=58.5794pt
+:subfigure48:lthtmlCropMarkHeight:=58.5794pt
 
-:subfigure47:lthtmlCropMarkDepth:=47.57939pt:1ex:=4.30554pt
+:subfigure48:lthtmlCropMarkDepth:=47.57939pt:1ex:=4.30554pt
 [2 </home/runner/work/coenv-ethics/coenv-ethics/images/sigil-example.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 206.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 206.
 (./images.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 205.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 206.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 206.
 
 Package rerunfilecheck Warning: File `images.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -690,15 +692,12 @@ Package rerunfilecheck Warning: File `images.out' has changed.
 Package rerunfilecheck Info: Checksums for `images.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 9943 strings out of 483183
- 149972 string characters out of 5966291
- 454211 words of memory out of 5000000
- 24805 multiletter control sequences out of 15000+600000
+ 9993 strings out of 483183
+ 150641 string characters out of 5966291
+ 455553 words of memory out of 5000000
+ 24851 multiletter control sequences out of 15000+600000
  532792 words of font info for 26 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  41i,7n,45p,815b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
