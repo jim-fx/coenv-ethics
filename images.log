@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.25)  25 NOV 2021 17:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.11.26)  26 NOV 2021 09:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -463,6 +463,12 @@ Package babel Warning: Unknown language `german'. Very likely you
 (babel)                wrong results in this run, which should vanish
 (babel)                in the next one. Reported on input line 22.
 
+
+LaTeX Warning: Label `fig:sub1' multiply defined.
+
+
+LaTeX Warning: Label `fig:sub1' multiply defined.
+
 )
 \openout1 = `images.aux'.
 
@@ -684,11 +690,14 @@ Package rerunfilecheck Warning: File `images.out' has changed.
 Package rerunfilecheck Info: Checksums for `images.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
  9943 strings out of 483183
  149972 string characters out of 5966291
- 454189 words of memory out of 5000000
+ 454211 words of memory out of 5000000
  24805 multiletter control sequences out of 15000+600000
  532792 words of font info for 26 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191

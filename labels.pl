@@ -34,7 +34,7 @@ $external_latex_labels{$key} = q|<|;
 $noresave{$key} = "$nosave";
 
 $key = q/fig:sub1/;
-$external_latex_labels{$key} = q|1a|; 
+$external_latex_labels{$key} = q|3|; 
 $noresave{$key} = "$nosave";
 
 $key = q/fig:sub2/;
