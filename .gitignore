@@ -8,7 +8,7 @@
 *.gz
 *.toc
 *.bbl
-main.pdf
+*.pdf
 
 public/*
 !public/.nojekyll
