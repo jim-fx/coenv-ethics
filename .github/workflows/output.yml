@@ -9,6 +9,10 @@ jobs:
 
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
+        with:
+          root_file: |
+            coenv.tex
+            garments_digital.tex
 
       - name: Install latex2html
         run: sudo apt-get install -y latex2html
