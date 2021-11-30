@@ -3,23 +3,23 @@
 
 
 $key = q/cite_Cabral2016/;
-$external_labels{$key} = "$URL/" . q|main.html|; 
+$external_labels{$key} = "$URL/" . q|coenv.html|; 
 $noresave{$key} = "$nosave";
 
 $key = q/cite_Lengen2021-xe/;
-$external_labels{$key} = "$URL/" . q|main.html|; 
+$external_labels{$key} = "$URL/" . q|coenv.html|; 
 $noresave{$key} = "$nosave";
 
 $key = q/fig:sub1/;
-$external_labels{$key} = "$URL/" . q|main.html|; 
+$external_labels{$key} = "$URL/" . q|coenv.html|; 
 $noresave{$key} = "$nosave";
 
 $key = q/fig:sub2/;
-$external_labels{$key} = "$URL/" . q|main.html|; 
+$external_labels{$key} = "$URL/" . q|coenv.html|; 
 $noresave{$key} = "$nosave";
 
 $key = q/fig:test/;
-$external_labels{$key} = "$URL/" . q|main.html|; 
+$external_labels{$key} = "$URL/" . q|coenv.html|; 
 $noresave{$key} = "$nosave";
 
 1;
