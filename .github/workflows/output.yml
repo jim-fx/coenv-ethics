@@ -22,7 +22,7 @@ jobs:
 
       - name: Build HTML
         continue-on-error: true
-        run: make html && mv build/*.pdf public/
+        run: mv build/*.pdf public/ && make html
 
       - name: Deploy Artifacts to Github Pages
         uses: JamesIves/github-pages-deploy-action@4.1.6
