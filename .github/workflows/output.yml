@@ -10,6 +10,7 @@ jobs:
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v2
         with:
+          latexmk_shell_escape: true
           root_file: |
             coenv.tex
             garments_digital.tex
