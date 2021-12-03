@@ -13,13 +13,14 @@ jobs:
           root_file: |
             coenv.tex
             garments_digital.tex
+            presentation.tex
 
       - name: Install latex2html
         run: sudo apt-get install -y latex2html
 
       - name: Build HTML
         continue-on-error: true
-        run: make html && mv coenv.pdf public/ && mv garments_digital.pdf public/ 
+        run: make html && mv build/*.pdf public/
 
       - name: Deploy Artifacts to Github Pages
         uses: JamesIves/github-pages-deploy-action@4.1.6

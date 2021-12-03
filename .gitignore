@@ -9,6 +9,10 @@
 *.toc
 *.bbl
 *.pdf
+*.nav
+*.snm
+
+svg-inkscape
 
 public/*
 !public/.nojekyll
